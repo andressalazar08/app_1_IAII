@@ -1,0 +1,33 @@
+<!DOCTYPE> 
+<html>
+
+<head>
+    <title>
+    Resultado del modelo        
+    </title>
+
+</head>
+
+<body>
+    <h1>
+        Modelo de producción de ventanas
+    </h1>
+    
+    <form method="POST">
+        <div>
+            <input type="number" name="madera" placeholder="Ingrese la utilidad de una ventana de madera" value="0"></input>
+            <input type="number" name="aluminio" placeholder="Ingrese la utilidad de una ventana de aluminio" value="0"></input>
+        </div>
+        <button type="submit">Resolver el modelo</button>
+
+    </form>
+
+    
+    <p>
+        El resultado de X1 es: {{ res1 }}
+        el resultado de X2 es: {{ res2 }}
+        el valor de la función objetivo es: {{ fo }}
+    </p>
+</body>
+
+</html>
